@@ -1,0 +1,58 @@
+.panel-controlPanel {
+    height: auto;
+    background: #e8e8e8;
+    margin: 5px 10px 0px 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+    min-height: 100px;
+}
+
+.panel-tabPanel {
+    background: #e8e8e8;
+    margin: 5px;
+    height: auto;
+    width: auto;
+    display: flex;
+}
+
+.panel-tabPanel-item {
+    display: block;
+    height: 22px;
+    margin-left: 20px;
+    font-family: 'Ponter PC';
+    font-weight: 100;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.panel-queryPanel {
+    border: 1px black solid;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.controlPanel-brand {
+    display: flex;
+    align-items: center;
+}
+
+.controlPanel-submit {
+    height: 22px;
+    padding: 0;
+    margin-left: 10px;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Ponter PC';
+    margin-top: 22px;
+}
+
+.panel-createBrand {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.panel-createBrand input {
+    margin-left: 10px;
+}

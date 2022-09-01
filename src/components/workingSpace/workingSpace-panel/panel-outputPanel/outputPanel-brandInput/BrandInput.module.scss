@@ -1,0 +1,74 @@
+.brandItem {
+    display: block;
+    background: #e8e8e8;
+    margin: 5px 10px 3px 10px;
+    font-family: 'Ponter PC';
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+
+.brandItem-header {
+    display: flex;
+    margin: 5px 0 0 10px;
+    align-items: center;
+}
+
+.brandItem-title {
+    font-family: 'Ponter PC';
+    font-size: 18px;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 0 3px;
+    overflow: hidden;
+    background: #e8e8e8;
+}
+
+
+.brandItem-icon:hover {
+    background: #bdbdbd;
+}
+
+.brandItem-body {
+    margin-left: 10px;
+}
+
+.brandItem-id {
+    font-family: 'Times New Roman', Times, serif;
+    display: inline-block;
+    border: 1px solid black;
+    width: 80%;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.brandItem-apiKeys {
+    margin: 0 2px 3px 12px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+.key {
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3px;
+    border-radius: 10px;
+}
+
+
+.apiKeys_One,
+.apiKeys_Two {
+    background: #e8e8e8;
+    margin-left: 10px;
+    height: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 0 3px;
+    overflow: hidden;
+}

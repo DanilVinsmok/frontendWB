@@ -1,0 +1,52 @@
+.workSpace-menu {
+    width: 8%;
+    max-width: 155px;
+    min-width: 80px;
+    animation-duration: 0.4s;
+    animation-timing-function: linear;
+    position: fixed;
+}
+
+@keyframes menu-show-open {
+    0% {
+        left: -8%;
+    }
+
+    25% {
+        left: -6%;
+    }
+
+    50% {
+        left: -4%;
+    }
+
+    75% {
+        left: -2%;
+    }
+
+    100% {
+        left: 0%;
+    }
+}
+
+@keyframes menu-show-close {
+    0% {
+        left: 0%;
+    }
+
+    25% {
+        left: -2%;
+    }
+
+    50% {
+        left: -4%;
+    }
+
+    75% {
+        left: -6%;
+    }
+
+    100% {
+        left: -8%;
+    }
+}

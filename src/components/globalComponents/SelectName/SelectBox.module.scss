@@ -1,0 +1,52 @@
+.select {
+    height: 40px;
+    width: 150px;
+    margin: 15px 0 15px 10px;
+    font-family: 'Ponter PC';
+    font-size: 15px;
+    position: relative;
+}
+
+.select::before {
+    content: 'Имя бренда:';
+    display: block;
+    padding-left: 3px;
+    margin-bottom: 2px;
+}
+
+.select-header {
+    display: flex;
+    height: 20px;
+    border: 1px solid black;
+}
+
+.select-current {
+    margin-left: 3px;
+}
+
+.select-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    padding: 0 3px;
+    font-size: 10px;
+}
+
+.select-body {
+    position: absolute;
+    left: 0;
+    border: 1px solid black;
+    border-top: 0;
+    right: 0;
+    display: none;
+    background-color: #e8e8e8;
+}
+
+.select-item {
+    height: 24px;
+    margin: 5px 3px 0px 3px;
+    padding: 0 0 0 7px;
+    border-radius: 15px;
+}
